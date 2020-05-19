@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+goodlibs = {path = ".", editable = true}
+
+[packages]
+backports-datetime-fromisoformat = "*"
+beautifulsoup4 = "*"
+betterreads = "*"
+certifi = "*"
+chardet = "*"
+click = "*"
+fuzzywuzzy = "*"
+idna = "*"
+lxml = "*"
+rauth = "*"
+requests = "*"
+soupsieve = "*"
+tabulate = "*"
+urllib3 = "*"
+xmltodict = "*"
+python-Levenshtein = "*"
+Unidecode = "*"
+
+[requires]
+python_version = "3.8"
