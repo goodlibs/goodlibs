@@ -15,7 +15,7 @@ with open("README.md", "r") as readme:
 
 setup(
     name="goodlibs",
-    version="0.1.0",
+    version="0.1.1",
     description="Download books from a Goodreads shelf using Library Genesis.",
     long_description=long_description,
     long_description_content_type="text/markdown",
