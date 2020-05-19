@@ -87,7 +87,11 @@ def download(key, username, shelf, language, extension):
         if deep_get(config, "Goodreads", "api_key") is not None:
             key = config["Goodreads"]["api_key"]
         else:
-            click.echo(message="The Goodreads API key is required.", err=True)
+            click.echo(
+                message="The Goodreads API key is required. "
+                "Register for an API key here: https://www.goodreads.com/api/keys",
+                err=True,
+            )
             key = click.prompt(text="key")
 
     if username is None:
